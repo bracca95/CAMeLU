@@ -1,0 +1,56 @@
+{
+    "experiment_name": "disabled",
+    "seed": 24,
+    "dataset": {
+        "dataset_path": "/path/to/ILSVRC",
+        "dataset_type": "episodic_imagenet",
+        "dataset_id": null,
+        "dataset_splits": [
+            0.7,
+            0.1,
+            0.2
+        ],
+        "normalize": true,
+        "crop_size": 30,
+        "image_size": 224,
+        "augment_online": ["support", "query"],
+        "augment_offline": null,
+        "augment_times": 5,
+        "dataset_mean": [
+            0.48500001430511475,
+            0.4560000002384186,
+            0.4059999883174896
+        ],
+        "dataset_std": [
+            0.2290000021457672,
+            0.2240000069141388,
+            0.22499999403953552
+        ]
+    },
+    "model": {
+        "model_name": "camlu:custom:resnet50",
+        "freeze": true,
+        "pretrained": true,
+        "dropout": 0.0,
+        "context": {
+            "n_layers": 8,
+            "n_heads": 8,
+            "mlp_dim": 3072,
+            "hidden_dim": 2304,
+            "attention_dropout": 0.0,
+            "n_way": 5,
+            "k_shot": 5,
+            "k_query": 5,
+            "episodes": 500
+        }
+    },
+    "train_test": {
+        "epochs": 100,
+        "batch_size": 6,
+        "num_workers": 4,
+        "model_test_path": null,
+        "learning_rate": 1e-5,
+        "weight_decay": 0.0,
+        "optimizer": null
+    }
+}

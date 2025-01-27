@@ -1,0 +1,22 @@
+# dir
+.vscode/
+__pycache__/
+runs/
+wandb/
+output/
+unit_test/*
+
+# specific files
+.DS_Store
+nohup.out
+processed_json.json
+!unit_test/test_multi.py
+
+# extensions
+*.log
+*.pt
+*.pth
+*.pyc
+*.tar
+*.txt
+!requirements.txt
