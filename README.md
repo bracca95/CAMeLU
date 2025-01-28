@@ -1,4 +1,6 @@
 # CAMeLU
+This repository contains the official implementation of CAMeLU, a novel unsupervised meta-learning method that exploits in-context learning to learn from an unlabeled dataset.
+CAMeLU has been accepted to [ICLR2025](https://openreview.net/forum?id=Jprs1v2wPA)!
 
 ## Preliminaries
 Download pre-trained models:
@@ -48,3 +50,16 @@ If you already have a pre-trained model and you only want to perform inference, 
 
 ### Additional info
 This code has been tested with miniimagenet, CIFAR-FS, CUB, Aircraft, Meta-iNat and trained on imagenet-964 (named episodic_imagenet). More information on how to recreate these four datasets can be found in the respective python file (`.py`) under `lib/libdataset/src/datasets/fsl/<dataset_name>.py` and in `lib/libdataset/src/datasets/dataset_utils.py`
+
+## Citation
+```bibtex
+@misc{vettoruzzo2024unsupervisedmetalearningincontextlearning,
+      title={Unsupervised Meta-Learning via In-Context Learning}, 
+      author={Anna Vettoruzzo and Lorenzo Braccaioli and Joaquin Vanschoren and Marlena Nowaczyk},
+      year={2024},
+      eprint={2405.16124},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2405.16124}, 
+}
+```
