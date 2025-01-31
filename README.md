@@ -53,13 +53,10 @@ This code has been tested with miniimagenet, CIFAR-FS, CUB, Aircraft, Meta-iNat 
 
 ## Citation
 ```bibtex
-@misc{vettoruzzo2024unsupervisedmetalearningincontextlearning,
-      title={Unsupervised Meta-Learning via In-Context Learning}, 
-      author={Anna Vettoruzzo and Lorenzo Braccaioli and Joaquin Vanschoren and Marlena Nowaczyk},
-      year={2024},
-      eprint={2405.16124},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2405.16124}, 
+@article{vettoruzzo2024unsupervised,
+  title={Unsupervised Meta-Learning via In-Context Learning},
+  author={Vettoruzzo, Anna and Braccaioli, Lorenzo and Vanschoren, Joaquin and Nowaczyk, Marlena},
+  journal={arXiv preprint arXiv:2405.16124},
+  year={2024}
 }
 ```
