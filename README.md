@@ -53,10 +53,11 @@ This code has been tested with miniimagenet, CIFAR-FS, CUB, Aircraft, Meta-iNat 
 
 ## Citation
 ```bibtex
-@article{vettoruzzo2024unsupervised,
+@inproceedings{camelu,
   title={Unsupervised Meta-Learning via In-Context Learning},
   author={Vettoruzzo, Anna and Braccaioli, Lorenzo and Vanschoren, Joaquin and Nowaczyk, Marlena},
-  journal={arXiv preprint arXiv:2405.16124},
-  year={2024}
+  booktitle={International Conference on Learning Representations},
+  year={2025},
+url={https://openreview.net/forum?id=Jprs1v2wPA}
 }
 ```
